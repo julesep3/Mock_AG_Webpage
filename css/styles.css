@@ -43,6 +43,7 @@ main img {
 .section-2 {
 	text-align: center;
 	background-color: white;
+	padding: 60px 30px 45px;
 }
 
 .section-2 h1 {
@@ -51,6 +52,7 @@ main img {
 	font-weight: 500;
 	margin-bottom: 30px;
 	line-height: 1.2;
+	letter-spacing: 0.1em;
 }
 
 .section-2 h2 {
