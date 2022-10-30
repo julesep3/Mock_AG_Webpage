@@ -1,0 +1,37 @@
+header {
+	/* height: 10%; */
+}
+
+#header-menu-logo {
+	width: 230px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.footer-top {
+	background-color: aqua;
+	height: 400px;
+}
+
+.footer-middle {
+	background-color: hotpink;
+	height: 180px;
+}
+
+#footer-swoosh {
+	width: 100%;
+}
+
+.footer-bottom {
+	background-color: #000033;
+	height: 500px;
+}
+
+.footer-bottom-container {
+	padding: 30px 30px 25px;
+}
+
+.footer-bottom-logo {
+	width: 233px;
+}
+
