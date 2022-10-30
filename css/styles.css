@@ -1,11 +1,32 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
 header {
 	/* height: 10%; */
+	font-weight: 700;
+	/* position: fixed; */
+}
+
+.menubar {
+	position: fixed;
+	width: 100%;
+}
+
+.header-menu a:hover {
+	color: #92d050;
 }
 
 #header-menu-logo {
-	width: 230px;
-	margin-right: 20px;
-	margin-top: 10px;
+	width: 215px;
+	margin-right: 35px;
+	margin-top: 7px;
+}
+
+main {
+	height: 1200px;
+	background-color: cornflowerblue;
 }
 
 .footer-top {
@@ -24,11 +45,26 @@ header {
 
 .footer-bottom {
 	background-color: #000033;
-	height: 500px;
+	height: 200px;
 }
 
 .footer-bottom-container {
 	padding: 30px 30px 25px;
+}
+
+.footer-bottom-menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-bottom-menu li {
+	margin: 10px;
+}
+
+.footer-bottom-menu a {
+	color: white;
+	text-decoration: none;
 }
 
 .footer-bottom-logo {
