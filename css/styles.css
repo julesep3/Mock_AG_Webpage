@@ -89,7 +89,12 @@ main img {
 }
 
 .footer-bottom-container {
+	width: 100%;
+
 	padding: 30px 30px 25px;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 .footer-bottom-menu {
@@ -114,5 +119,9 @@ main img {
 
 .footer-bottom-logo {
 	width: 233px;
+}
+
+@media (min-width: 992px) {
+
 }
 
